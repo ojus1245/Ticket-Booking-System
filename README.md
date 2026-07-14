@@ -10,6 +10,7 @@ You can explore the deployed application here:
 👉 [Ticket Booking System Live](https://ticket-booking-e1513.web.app)
 
 ---
+
 ##  Overview
 
 This project is a **React + TypeScript** single-page application integrated with **Firebase** (Auth + Firestore) as its backend-as-a-service. It covers the complete lifecycle of a ticket booking platform � from event discovery and seat selection to payment checkout and downloadable tickets � along with a fully functional admin panel.
