@@ -203,15 +203,6 @@ npm run build
 
 Output will be in the `dist/` folder, ready to deploy on Vercel, Netlify, or Firebase Hosting.
 
----
-
-##  Built For
-
-Developed as part of an assignment for **Unthinkable** (https://unthinkable.co/), demonstrating:
-- Full frontend SPA architecture with scalable component design
-- Firebase-backed authentication and real-time Firestore database
-- Role-based access control (Customer vs Admin)
-- Premium, production-quality UI/UX with dark mode support
 
 ---
 
