@@ -5,15 +5,15 @@
 
 ---
 
-## ?? Overview
+##  Overview
 
 This project is a **React + TypeScript** single-page application integrated with **Firebase** (Auth + Firestore) as its backend-as-a-service. It covers the complete lifecycle of a ticket booking platform � from event discovery and seat selection to payment checkout and downloadable tickets � along with a fully functional admin panel.
 
 ---
 
-## ? Features
+##  Features
 
-### ?? Authentication
+###  Authentication
 - **User Registration** � Full name, email, phone, and password with real-time Zod validation
 - **Login** � Email/password login via Firebase Authentication
 - **Forgot Password** � Email-based password reset flow
@@ -21,7 +21,7 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-### ?? Home Page
+###  Home Page
 - Hero section with prominent search / call-to-action
 - Featured events and trending shows in rich card layouts
 - Category browsing and top destinations
@@ -30,7 +30,7 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-### ?? Discover / Search
+###  Discover / Search
 - Browse all available events and tickets
 - **Filter** by price, rating, time, and availability
 - **Sort** by price, duration, popularity, and newest
@@ -38,21 +38,21 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-### ?? Event Details
+###  Event Details
 - Full event detail view: image, title, operator, departure/arrival, duration, seats available, price, ratings, and amenities
 - "Book Now" CTA leading directly to seat selection
 
 ---
 
-### ?? Seat Selection
+###  Seat Selection
 - **Interactive seat map** with color-coded seat states:
-  - ?? Available | ?? Booked | ?? Selected | ?? VIP | ? Disabled
+  -  Available |  Booked |  Selected |  VIP | Disabled
 - Live seat count and dynamic price update as seats are selected
 - Seat legend and selection summary panel
 
 ---
 
-### ?? Checkout
+###  Checkout
 - Passenger detail form (name, age, gender, phone, email, special requests, emergency contact)
 - **Payment methods**: Credit Card, Debit Card, UPI, Net Banking, Wallet
 - **Order summary**: Ticket price, taxes, convenience fee, discount, and coupon code support
@@ -60,21 +60,21 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-### ? Booking Confirmation and Ticket
+###  Booking Confirmation and Ticket
 - Animated booking success screen with Booking ID display
 - **Printable digital ticket** featuring: Logo, Booking ID, passenger info, seat number, QR code placeholder, journey details, date/time, and price
 - **Download ticket** functionality and share option
 
 ---
 
-### ?? User Dashboard
+###  User Dashboard
 - View all past and upcoming bookings in card/table layout
 - Each booking shows: Booking ID, event/journey, date, status (pending / confirmed / cancelled), and payment status
 - Actions: **Cancel Ticket**, **Download Ticket**, **View Details**
 
 ---
 
-### ?? User Profile
+###  User Profile
 - View and edit profile (name, email, phone, profile picture)
 - Change password
 - Saved routes and favorite events
@@ -83,7 +83,7 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-### ??? Admin Dashboard
+### Admin Dashboard
 - Separate full-screen admin interface (no Navbar/Footer for immersive experience)
 - **Analytics cards**: Total Users, Total Bookings, Revenue, Today Bookings, Pending Refunds, Active Events
 - Revenue and booking charts
@@ -95,24 +95,24 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-### ?? Toast Notifications
+###  Toast Notifications
 - Real-time toast notification system for booking confirmation, payment success, cancellations, and offer alerts
 
 ---
 
-### ?? Dark / Light Mode
+###  Dark / Light Mode
 - Theme toggle available in the user profile, persisted globally
 
 ---
 
-### ?? Responsive Design
+###  Responsive Design
 - Fully responsive across **Desktop**, **Tablet**, and **Mobile**
 - Hamburger navigation on mobile
 - Cards stack vertically on small screens; tables become scrollable
 
 ---
 
-## ??? Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -128,7 +128,7 @@ This project is a **React + TypeScript** single-page application integrated with
 
 ---
 
-## ?? Project Structure
+##  Project Structure
 
 ```
 src/
@@ -160,7 +160,7 @@ src/
 
 ---
 
-## ?? Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js >= 18
@@ -190,7 +190,7 @@ npm run dev
 
 ---
 
-## ?? Build for Production
+##  Build for Production
 
 ```bash
 npm run build
@@ -200,7 +200,7 @@ Output will be in the `dist/` folder, ready to deploy on Vercel, Netlify, or Fir
 
 ---
 
-## ?? Built For
+##  Built For
 
 Developed as part of an assignment for **Unthinkable** (https://unthinkable.co/), demonstrating:
 - Full frontend SPA architecture with scalable component design
@@ -210,6 +210,6 @@ Developed as part of an assignment for **Unthinkable** (https://unthinkable.co/)
 
 ---
 
-## ?? License
+##  License
 
 This project is for educational and demonstration purposes.
