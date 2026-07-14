@@ -53,17 +53,17 @@ It demonstrates backend design, authentication, and booking management using a s
    cd ticket-booking-system
 
 2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   
 3. Configure environment variables in .env:
-Code
-DB_HOST=your_db_host
-DB_USER=your_db_user
-DB_PASS=your_db_password
-JWT_SECRET=your_secret_key
-Run migrations or sync schema (if applicable).
+   ```Code
+   DB_HOST=your_db_host
+   DB_USER=your_db_user
+   DB_PASS=your_db_password
+   JWT_SECRET=your_secret_key
+   Run migrations or sync schema (if applicable).
 
 4.Start the server:
-bash
-npm run dev
+  ```bash
+  npm run dev
