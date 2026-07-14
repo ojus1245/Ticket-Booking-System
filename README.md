@@ -1,4 +1,4 @@
-# ??? Ticket Booking System
+# Ticket Booking System
 
 > A modern, full-featured **ticket booking web application**.
 > Designed to demonstrate frontend architecture, real-time database integration, authentication flows, and premium UI/UX design.
